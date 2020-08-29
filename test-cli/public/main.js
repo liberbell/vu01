@@ -4,4 +4,4 @@ var app = new Vue({
         title: "The Food App",
         subtitle: "This app is about food!",
     }
-})
+});
