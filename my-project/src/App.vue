@@ -4,4 +4,4 @@
       サンプル
     </p>
   </div>
-</templa
+</template>
