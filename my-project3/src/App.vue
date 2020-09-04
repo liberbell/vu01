@@ -18,5 +18,10 @@
         msg: "Hello World!"
       }
     }
-  }
+  },
+  methods: {
+    clear () {
+      this.msg = ""
+    }
+  },
 </script>
