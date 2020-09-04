@@ -1,5 +1,6 @@
 <template>
   <div>
+    <myheader></myheader>
     <p v-if="msg.length > 0">
       {{msg}}
     </p>
@@ -25,7 +26,7 @@ export default {
       msg: 'Hello World!'
     }
   },
-  
+
   methods: {
     clear () {
       this.msg = ''
