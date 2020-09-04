@@ -1,7 +1,7 @@
 <template>
   <div>
     <p v-if="msg.length > 0">
-      {{ msg }}
+      {{msg}}
     </p>
     <p v-else>
       no text
@@ -12,15 +12,15 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        msg: "Hello World!"
-      }
-    },
+export default {
+  data () {
+    return {
+      msg: 'Hello World!'
+    }
+  },
   methods: {
     clear () {
-      this.msg = ""
+      this.msg = ''
     }
   }
 }
