@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import myheader from './components/myheader'
+import myheader from './components/myheader.vue'
 
 export default {
   components: {
