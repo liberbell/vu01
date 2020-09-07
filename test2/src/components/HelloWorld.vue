@@ -40,8 +40,9 @@ export default {
     text: String
   },
   data () {
-    return: {
-      text: "Test Data"
+    return {
+      text: "Test Data",
+      showText: false
     }
   }
 }
