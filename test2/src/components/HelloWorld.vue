@@ -37,8 +37,8 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-    text: String,
-  }
+    text: String
+  },
   data () {
     return: {
       text: "Test Data"
