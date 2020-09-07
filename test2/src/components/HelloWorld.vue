@@ -39,6 +39,11 @@ export default {
     msg: String,
     text: String,
   }
+  data () {
+    return: {
+      text: "Test Data"
+    }
+  }
 }
 </script>
 
