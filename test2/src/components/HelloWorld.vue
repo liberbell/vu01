@@ -12,7 +12,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       text: 'Test data',
-      showText: false
+      showText: true
     }
   }
 }
