@@ -8,10 +8,6 @@
 <script>
 export default {
   name: 'HelloWorld',
-  // props: {
-  //   msg: String,
-  //   text: String
-  // },
   data () {
     return {
       msg: "Welcome to Your Vue.js by liber",
