@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <!-- <h2>{{ msg }}</h2> -->
-        <h2>{{ text }}</h2>
+        <h2　v-show="showText">{{ text }}</h2>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
