@@ -41,7 +41,7 @@ export default {
   // },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: "Welcome to Your Vue.js App",
       text: "Test Data",
       showText: false
     }
