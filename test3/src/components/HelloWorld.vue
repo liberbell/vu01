@@ -12,15 +12,21 @@ import axios from 'axios'
 export default {
   name: 'HelloWorld',
   data () {
+    return {
     msg: "Welcome to Your Vue.js App by liber"
+    }
+  },
+  methods: {
+    apiPublic: async function() {
+      let res = await axios.get('http://localhost:8000/public')
+      this.msg = res.data
+    },
+    apiPrivate: async function () {
+      let res = await axios.get('http://localhost:8000/private')
+      this.msg = res.data
+    }
   }
-},
-methods: {
-  apiPublic: async function() {
-    let res = await axios.get('http://localhost:8000/public')
-    this.msg = res.data
-  }
-},
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
