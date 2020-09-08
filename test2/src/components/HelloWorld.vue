@@ -20,7 +20,7 @@ export default {
     toggle: function () {
       this.showText = !this.showText
     }
-  },
+  }
 }
 </script>
 
