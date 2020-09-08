@@ -11,8 +11,8 @@
 import axios from 'axios'
 export default {
   name: 'HelloWorld',
-  props: {
-    msg: String
+  data () {
+    msg: "Welcome to Your Vue.js App by liber"
   }
 }
 </script>
