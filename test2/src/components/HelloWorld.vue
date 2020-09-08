@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     toggle: function () {
-      this.showText: !this.showText
+      this.showText = !this.showText
     }
   },
 }
