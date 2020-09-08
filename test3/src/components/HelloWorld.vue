@@ -14,7 +14,13 @@ export default {
   data () {
     msg: "Welcome to Your Vue.js App by liber"
   }
-}
+},
+methods: {
+  apiPublic: async function() {
+    let res = await axios.get('http://localhost:8000/public')
+    this.msg = res.data
+  }
+},
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
