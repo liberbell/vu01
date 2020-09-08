@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>Essential Links</h2>
+    <button @click="apiPublic">public</button>
+    <button @click="apiPrivate">private</button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
