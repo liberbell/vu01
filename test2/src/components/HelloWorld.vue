@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2 v-show="showText">{{ text }}</h2>
-    <button v-on:click"toggle">toggle</button>
+    <button v-on:click="toggle">toggle</button>
   </div>
 </template>
 
