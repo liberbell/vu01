@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2 v-show="showText">{{ text }}</h2>
+    <button v-on:click"toggle">toggle</button>
   </div>
 </template>
 
@@ -12,9 +13,14 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       text: 'Test data',
-      showText: true
+      showText: false
     }
-  }
+  },
+  methods: {
+    toggle: function () {
+      this.showText: !this.showText
+    }
+  },
 }
 </script>
 
