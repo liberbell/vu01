@@ -6,7 +6,7 @@
       <a @click="registerForm" class="btn">登録</a>
     </div>
     <div v-else>
-      <a class="btn-disabled" disabled>登録</a>
+      <a class="btn-disabled" disabled>登録する</a>
     </div>
     <router-view></router-view>
   </div>
