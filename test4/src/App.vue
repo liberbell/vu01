@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <a @click="registerForm" v-bind:class="[buttonClickable ? 'btn' : 'btn-disabled']"></a>
     <div v-if="enableRegister">
       <a @click="registerForm" class="btn">登録</a>
     </div>
