@@ -2,6 +2,9 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div v-if="enableRegister">
+      <a @click="registerForm" class="btn">登録</a>
+    </div>
     <router-view></router-view>
   </div>
 </template>
