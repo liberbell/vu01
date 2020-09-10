@@ -12,4 +12,5 @@ export default {
   data () {
       return ''
   }
-  </script>
+}
+</script>
